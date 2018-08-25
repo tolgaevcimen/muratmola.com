@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3A7D602-9E1F-4E5C-9193-BC9310231936}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>muratmola.com</RootNamespace>
+    <AssemblyName>muratmola.com</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\default-css.css" />
+    <Content Include="assets\css\flaticon.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\css\slicknav.min.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\css\typography.css" />
+    <Content Include="assets\fonts-new\flaticon.css" />
+    <Content Include="assets\fonts-new\flaticon.html" />
+    <Content Include="assets\fonts-new\Flaticon.svg" />
+    <Content Include="assets\fonts\Flaticon.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\img\about\abt-left-thumb.jpg" />
+    <Content Include="assets\img\about\dikey.JPG" />
+    <Content Include="assets\img\about\slider-bg.jpg" />
+    <Content Include="assets\img\about\yatay.JPG" />
+    <Content Include="assets\img\icon\favicon.ico" />
+    <Content Include="assets\img\icon\flogo.png" />
+    <Content Include="assets\img\icon\logo-b.png" />
+    <Content Include="assets\img\icon\logo.png" />
+    <Content Include="assets\img\icon\Untitled.png" />
+    <Content Include="assets\img\portfolio\img1.jpg" />
+    <Content Include="assets\img\portfolio\img2.jpg" />
+    <Content Include="assets\img\portfolio\img3.jpg" />
+    <Content Include="assets\img\portfolio\img4.jpg" />
+    <Content Include="assets\img\portfolio\img5.jpg" />
+    <Content Include="assets\img\portfolio\img6.jpg" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\imagesloaded.pkgd.min.js" />
+    <Content Include="assets\js\isotope.pkgd.min.js" />
+    <Content Include="assets\js\jquery.magnific-popup.min.js" />
+    <Content Include="assets\js\jquery.slicknav.min.js" />
+    <Content Include="assets\js\plugins.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\js\vendor\jquery-3.2.0.min.js" />
+    <Content Include="assets\js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="assets\license\license.html" />
+    <Content Include="assets\png\001-implant.png" />
+    <Content Include="assets\png\002-tooth.png" />
+    <Content Include="assets\png\003-tooth-1.png" />
+    <Content Include="assets\png\004-toothbrush.png" />
+    <Content Include="assets\png\005-tooth-2.png" />
+    <Content Include="assets\png\006-tooth-3.png" />
+    <Content Include="assets\png\007-tooth-4.png" />
+    <Content Include="assets\png\008-dentist.png" />
+    <Content Include="assets\png\009-brace.png" />
+    <Content Include="assets\png\010-tooth-5.png" />
+    <Content Include="assets\png\011-tooth-6.png" />
+    <Content Include="assets\png\012-tooth-7.png" />
+    <Content Include="assets\png\013-mirror.png" />
+    <Content Include="assets\png\014-dental-drill.png" />
+    <Content Include="assets\png\015-syringe.png" />
+    <Content Include="assets\png\016-tooth-pliers.png" />
+    <Content Include="assets\png\017-mouthwash.png" />
+    <Content Include="assets\png\018-tooth-8.png" />
+    <Content Include="assets\png\019-dental-floss.png" />
+    <Content Include="assets\png\020-tooth-9.png" />
+    <Content Include="assets\png\021-tooth-10.png" />
+    <Content Include="assets\png\022-stethoscope.png" />
+    <Content Include="assets\png\023-tooth-11.png" />
+    <Content Include="assets\png\024-tooth-12.png" />
+    <Content Include="assets\png\025-x-ray.png" />
+    <Content Include="assets\png\026-tooth-13.png" />
+    <Content Include="assets\png\027-dental-floss-1.png" />
+    <Content Include="assets\png\028-certified.png" />
+    <Content Include="assets\png\029-smiling.png" />
+    <Content Include="assets\png\030-mobile-phone.png" />
+    <Content Include="assets\png\031-call-center.png" />
+    <Content Include="assets\png\032-tooth-14.png" />
+    <Content Include="assets\png\033-placeholder.png" />
+    <Content Include="assets\png\034-tooth-15.png" />
+    <Content Include="assets\png\035-tooth-16.png" />
+    <Content Include="assets\png\036-dentist-chair.png" />
+    <Content Include="assets\png\037-search.png" />
+    <Content Include="assets\png\038-mobile-phone-1.png" />
+    <Content Include="assets\png\039-tooth-17.png" />
+    <Content Include="assets\png\040-tooth-18.png" />
+    <Content Include="assets\png\041-tooth-19.png" />
+    <Content Include="assets\png\042-tooth-20.png" />
+    <Content Include="assets\png\043-insurance.png" />
+    <Content Include="assets\png\044-dental-care.png" />
+    <Content Include="assets\png\045-tooth-21.png" />
+    <Content Include="assets\png\046-placeholder-1.png" />
+    <Content Include="assets\png\047-tooth-22.png" />
+    <Content Include="assets\png\048-dentist-1.png" />
+    <Content Include="assets\png\049-toothbrush-1.png" />
+    <Content Include="assets\png\050-tooth-pliers-1.png" />
+    <Content Include="assets\svg\001-implant.svg" />
+    <Content Include="assets\svg\002-tooth.svg" />
+    <Content Include="assets\svg\003-tooth-1.svg" />
+    <Content Include="assets\svg\004-toothbrush.svg" />
+    <Content Include="assets\svg\005-tooth-2.svg" />
+    <Content Include="assets\svg\006-tooth-3.svg" />
+    <Content Include="assets\svg\007-tooth-4.svg" />
+    <Content Include="assets\svg\008-dentist.svg" />
+    <Content Include="assets\svg\009-brace.svg" />
+    <Content Include="assets\svg\010-tooth-5.svg" />
+    <Content Include="assets\svg\011-tooth-6.svg" />
+    <Content Include="assets\svg\012-tooth-7.svg" />
+    <Content Include="assets\svg\013-mirror.svg" />
+    <Content Include="assets\svg\014-dental-drill.svg" />
+    <Content Include="assets\svg\015-syringe.svg" />
+    <Content Include="assets\svg\016-tooth-pliers.svg" />
+    <Content Include="assets\svg\017-mouthwash.svg" />
+    <Content Include="assets\svg\018-tooth-8.svg" />
+    <Content Include="assets\svg\019-dental-floss.svg" />
+    <Content Include="assets\svg\020-tooth-9.svg" />
+    <Content Include="assets\svg\021-tooth-10.svg" />
+    <Content Include="assets\svg\022-stethoscope.svg" />
+    <Content Include="assets\svg\023-tooth-11.svg" />
+    <Content Include="assets\svg\024-tooth-12.svg" />
+    <Content Include="assets\svg\025-x-ray.svg" />
+    <Content Include="assets\svg\026-tooth-13.svg" />
+    <Content Include="assets\svg\027-dental-floss-1.svg" />
+    <Content Include="assets\svg\028-certified.svg" />
+    <Content Include="assets\svg\029-smiling.svg" />
+    <Content Include="assets\svg\030-mobile-phone.svg" />
+    <Content Include="assets\svg\031-call-center.svg" />
+    <Content Include="assets\svg\032-tooth-14.svg" />
+    <Content Include="assets\svg\033-placeholder.svg" />
+    <Content Include="assets\svg\034-tooth-15.svg" />
+    <Content Include="assets\svg\035-tooth-16.svg" />
+    <Content Include="assets\svg\036-dentist-chair.svg" />
+    <Content Include="assets\svg\037-search.svg" />
+    <Content Include="assets\svg\038-mobile-phone-1.svg" />
+    <Content Include="assets\svg\039-tooth-17.svg" />
+    <Content Include="assets\svg\040-tooth-18.svg" />
+    <Content Include="assets\svg\041-tooth-19.svg" />
+    <Content Include="assets\svg\042-tooth-20.svg" />
+    <Content Include="assets\svg\043-insurance.svg" />
+    <Content Include="assets\svg\044-dental-care.svg" />
+    <Content Include="assets\svg\045-tooth-21.svg" />
+    <Content Include="assets\svg\046-placeholder-1.svg" />
+    <Content Include="assets\svg\047-tooth-22.svg" />
+    <Content Include="assets\svg\048-dentist-1.svg" />
+    <Content Include="assets\svg\049-toothbrush-1.svg" />
+    <Content Include="assets\svg\050-tooth-pliers-1.svg" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="assets\img\bg\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\eps\001-implant.eps" />
+    <Content Include="assets\eps\002-tooth.eps" />
+    <Content Include="assets\eps\003-tooth-1.eps" />
+    <Content Include="assets\eps\004-toothbrush.eps" />
+    <Content Include="assets\eps\005-tooth-2.eps" />
+    <Content Include="assets\eps\006-tooth-3.eps" />
+    <Content Include="assets\eps\007-tooth-4.eps" />
+    <Content Include="assets\eps\008-dentist.eps" />
+    <Content Include="assets\eps\009-brace.eps" />
+    <Content Include="assets\eps\010-tooth-5.eps" />
+    <Content Include="assets\eps\011-tooth-6.eps" />
+    <Content Include="assets\eps\012-tooth-7.eps" />
+    <Content Include="assets\eps\013-mirror.eps" />
+    <Content Include="assets\eps\014-dental-drill.eps" />
+    <Content Include="assets\eps\015-syringe.eps" />
+    <Content Include="assets\eps\016-tooth-pliers.eps" />
+    <Content Include="assets\eps\017-mouthwash.eps" />
+    <Content Include="assets\eps\018-tooth-8.eps" />
+    <Content Include="assets\eps\019-dental-floss.eps" />
+    <Content Include="assets\eps\020-tooth-9.eps" />
+    <Content Include="assets\eps\021-tooth-10.eps" />
+    <Content Include="assets\eps\022-stethoscope.eps" />
+    <Content Include="assets\eps\023-tooth-11.eps" />
+    <Content Include="assets\eps\024-tooth-12.eps" />
+    <Content Include="assets\eps\025-x-ray.eps" />
+    <Content Include="assets\eps\026-tooth-13.eps" />
+    <Content Include="assets\eps\027-dental-floss-1.eps" />
+    <Content Include="assets\eps\028-certified.eps" />
+    <Content Include="assets\eps\029-smiling.eps" />
+    <Content Include="assets\eps\030-mobile-phone.eps" />
+    <Content Include="assets\eps\031-call-center.eps" />
+    <Content Include="assets\eps\032-tooth-14.eps" />
+    <Content Include="assets\eps\033-placeholder.eps" />
+    <Content Include="assets\eps\034-tooth-15.eps" />
+    <Content Include="assets\eps\035-tooth-16.eps" />
+    <Content Include="assets\eps\036-dentist-chair.eps" />
+    <Content Include="assets\eps\037-search.eps" />
+    <Content Include="assets\eps\038-mobile-phone-1.eps" />
+    <Content Include="assets\eps\039-tooth-17.eps" />
+    <Content Include="assets\eps\040-tooth-18.eps" />
+    <Content Include="assets\eps\041-tooth-19.eps" />
+    <Content Include="assets\eps\042-tooth-20.eps" />
+    <Content Include="assets\eps\043-insurance.eps" />
+    <Content Include="assets\eps\044-dental-care.eps" />
+    <Content Include="assets\eps\045-tooth-21.eps" />
+    <Content Include="assets\eps\046-placeholder-1.eps" />
+    <Content Include="assets\eps\047-tooth-22.eps" />
+    <Content Include="assets\eps\048-dentist-1.eps" />
+    <Content Include="assets\eps\049-toothbrush-1.eps" />
+    <Content Include="assets\eps\050-tooth-pliers-1.eps" />
+    <Content Include="assets\fonts-new\Flaticon.eot" />
+    <Content Include="assets\fonts-new\Flaticon.ttf" />
+    <Content Include="assets\fonts-new\Flaticon.woff" />
+    <Content Include="assets\fonts-new\_flaticon.scss" />
+    <Content Include="assets\fonts\Flaticon.eot" />
+    <Content Include="assets\fonts\Flaticon.ttf" />
+    <Content Include="assets\fonts\Flaticon.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\psd\001-implant.psd" />
+    <Content Include="assets\psd\002-tooth.psd" />
+    <Content Include="assets\psd\003-tooth-1.psd" />
+    <Content Include="assets\psd\004-toothbrush.psd" />
+    <Content Include="assets\psd\005-tooth-2.psd" />
+    <Content Include="assets\psd\006-tooth-3.psd" />
+    <Content Include="assets\psd\007-tooth-4.psd" />
+    <Content Include="assets\psd\008-dentist.psd" />
+    <Content Include="assets\psd\009-brace.psd" />
+    <Content Include="assets\psd\010-tooth-5.psd" />
+    <Content Include="assets\psd\011-tooth-6.psd" />
+    <Content Include="assets\psd\012-tooth-7.psd" />
+    <Content Include="assets\psd\013-mirror.psd" />
+    <Content Include="assets\psd\014-dental-drill.psd" />
+    <Content Include="assets\psd\015-syringe.psd" />
+    <Content Include="assets\psd\016-tooth-pliers.psd" />
+    <Content Include="assets\psd\017-mouthwash.psd" />
+    <Content Include="assets\psd\018-tooth-8.psd" />
+    <Content Include="assets\psd\019-dental-floss.psd" />
+    <Content Include="assets\psd\020-tooth-9.psd" />
+    <Content Include="assets\psd\021-tooth-10.psd" />
+    <Content Include="assets\psd\022-stethoscope.psd" />
+    <Content Include="assets\psd\023-tooth-11.psd" />
+    <Content Include="assets\psd\024-tooth-12.psd" />
+    <Content Include="assets\psd\025-x-ray.psd" />
+    <Content Include="assets\psd\026-tooth-13.psd" />
+    <Content Include="assets\psd\027-dental-floss-1.psd" />
+    <Content Include="assets\psd\028-certified.psd" />
+    <Content Include="assets\psd\029-smiling.psd" />
+    <Content Include="assets\psd\030-mobile-phone.psd" />
+    <Content Include="assets\psd\031-call-center.psd" />
+    <Content Include="assets\psd\032-tooth-14.psd" />
+    <Content Include="assets\psd\033-placeholder.psd" />
+    <Content Include="assets\psd\034-tooth-15.psd" />
+    <Content Include="assets\psd\035-tooth-16.psd" />
+    <Content Include="assets\psd\036-dentist-chair.psd" />
+    <Content Include="assets\psd\037-search.psd" />
+    <Content Include="assets\psd\038-mobile-phone-1.psd" />
+    <Content Include="assets\psd\039-tooth-17.psd" />
+    <Content Include="assets\psd\040-tooth-18.psd" />
+    <Content Include="assets\psd\041-tooth-19.psd" />
+    <Content Include="assets\psd\042-tooth-20.psd" />
+    <Content Include="assets\psd\043-insurance.psd" />
+    <Content Include="assets\psd\044-dental-care.psd" />
+    <Content Include="assets\psd\045-tooth-21.psd" />
+    <Content Include="assets\psd\046-placeholder-1.psd" />
+    <Content Include="assets\psd\047-tooth-22.psd" />
+    <Content Include="assets\psd\048-dentist-1.psd" />
+    <Content Include="assets\psd\049-toothbrush-1.psd" />
+    <Content Include="assets\psd\050-tooth-pliers-1.psd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64890</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64890/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
