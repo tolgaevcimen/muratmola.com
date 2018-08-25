@@ -71,6 +71,12 @@ textarea {
 .pb--100{
     padding-bottom: 100px;
 }
+.pt--50{
+    padding-top: 50px;
+}
+.pb--150{
+    padding-bottom: 150px;
+}
 .pt--200{
     padding-top: 200px;
 }

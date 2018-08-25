@@ -57,6 +57,10 @@
 	.go-to-top{
 		display: none;
 	}
+	.about-area-bottom-triangles {
+		position: relative;
+		bottom: -91px !important;
+	}
 }
 
 
@@ -162,7 +166,7 @@
     	height: 286px;
     }
     .slider-content h2 {
-	    font-size: 27px;
+	    font-size: 20px;
 	    line-height: 31px;
 	    margin-bottom: 1px;
 	}
