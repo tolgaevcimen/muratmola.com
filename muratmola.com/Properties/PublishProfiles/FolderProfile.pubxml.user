@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>08/26/2018 01:14:17</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/default-css.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/flaticon.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/font-awesome.min.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/magnific-popup.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/responsive.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/slicknav.min.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/styles.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/css/typography.css">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/001-implant.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/002-tooth.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/003-tooth-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/004-toothbrush.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/005-tooth-2.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/006-tooth-3.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/007-tooth-4.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/008-dentist.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/009-brace.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/010-tooth-5.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/011-tooth-6.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/012-tooth-7.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/013-mirror.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/014-dental-drill.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/015-syringe.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/016-tooth-pliers.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/017-mouthwash.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/018-tooth-8.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/019-dental-floss.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/020-tooth-9.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/021-tooth-10.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/022-stethoscope.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/023-tooth-11.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/024-tooth-12.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/025-x-ray.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/026-tooth-13.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/027-dental-floss-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/028-certified.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/029-smiling.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/030-mobile-phone.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/031-call-center.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/032-tooth-14.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/033-placeholder.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/034-tooth-15.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/035-tooth-16.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/036-dentist-chair.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/037-search.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/038-mobile-phone-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/039-tooth-17.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/040-tooth-18.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/041-tooth-19.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/042-tooth-20.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/043-insurance.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/044-dental-care.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/045-tooth-21.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/046-placeholder-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/047-tooth-22.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/048-dentist-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/049-toothbrush-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/eps/050-tooth-pliers-1.eps">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/fonts-new/flaticon.css">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts-new/Flaticon.eot">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts-new/flaticon.html">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts-new/Flaticon.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts-new/Flaticon.ttf">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts-new/Flaticon.woff">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts-new/_flaticon.scss">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/Flaticon.eot">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/fonts/Flaticon.svg">
+      <publishTime>08/26/2018 01:15:32</publishTime>
+    </File>
+    <File Include="assets/fonts/Flaticon.ttf">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/Flaticon.woff">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/about/abt-left-thumb.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/about/dikey.JPG">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/about/slider-bg.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/about/yatay.JPG">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/icon/favicon.ico">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/icon/flogo.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/icon/logo-b.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/icon/logo.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/icon/Untitled.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/img1.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/img2.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/img3.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/img4.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/img5.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/img/portfolio/img6.jpg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/imagesloaded.pkgd.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/isotope.pkgd.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/jquery.magnific-popup.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/jquery.slicknav.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/plugins.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/scripts.js">
+      <publishTime>08/26/2018 02:02:03</publishTime>
+    </File>
+    <File Include="assets/js/vendor/jquery-3.2.0.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/js/vendor/modernizr-2.8.3.min.js">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/license/license.html">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/001-implant.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/002-tooth.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/003-tooth-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/004-toothbrush.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/005-tooth-2.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/006-tooth-3.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/007-tooth-4.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/008-dentist.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/009-brace.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/010-tooth-5.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/011-tooth-6.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/012-tooth-7.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/013-mirror.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/014-dental-drill.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/015-syringe.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/016-tooth-pliers.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/017-mouthwash.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/018-tooth-8.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/019-dental-floss.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/020-tooth-9.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/021-tooth-10.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/022-stethoscope.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/023-tooth-11.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/024-tooth-12.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/025-x-ray.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/026-tooth-13.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/027-dental-floss-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/028-certified.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/029-smiling.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/030-mobile-phone.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/031-call-center.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/032-tooth-14.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/033-placeholder.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/034-tooth-15.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/035-tooth-16.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/036-dentist-chair.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/037-search.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/038-mobile-phone-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/039-tooth-17.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/040-tooth-18.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/041-tooth-19.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/042-tooth-20.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/043-insurance.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/044-dental-care.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/045-tooth-21.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/046-placeholder-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/047-tooth-22.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/048-dentist-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/049-toothbrush-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/png/050-tooth-pliers-1.png">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/001-implant.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/002-tooth.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/003-tooth-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/004-toothbrush.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/005-tooth-2.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/006-tooth-3.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/007-tooth-4.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/008-dentist.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/009-brace.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/010-tooth-5.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/011-tooth-6.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/012-tooth-7.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/013-mirror.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/014-dental-drill.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/015-syringe.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/016-tooth-pliers.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/017-mouthwash.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/018-tooth-8.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/019-dental-floss.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/020-tooth-9.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/021-tooth-10.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/022-stethoscope.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/023-tooth-11.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/024-tooth-12.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/025-x-ray.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/026-tooth-13.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/027-dental-floss-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/028-certified.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/029-smiling.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/030-mobile-phone.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/031-call-center.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/032-tooth-14.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/033-placeholder.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/034-tooth-15.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/035-tooth-16.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/036-dentist-chair.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/037-search.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/038-mobile-phone-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/039-tooth-17.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/040-tooth-18.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/041-tooth-19.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/042-tooth-20.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/043-insurance.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/044-dental-care.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/045-tooth-21.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/046-placeholder-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/047-tooth-22.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/048-dentist-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/049-toothbrush-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/psd/050-tooth-pliers-1.psd">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/001-implant.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/002-tooth.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/003-tooth-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/004-toothbrush.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/005-tooth-2.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/006-tooth-3.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/007-tooth-4.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/008-dentist.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/009-brace.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/010-tooth-5.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/011-tooth-6.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/012-tooth-7.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/013-mirror.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/014-dental-drill.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/015-syringe.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/016-tooth-pliers.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/017-mouthwash.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/018-tooth-8.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/019-dental-floss.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/020-tooth-9.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/021-tooth-10.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/022-stethoscope.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/023-tooth-11.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/024-tooth-12.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/025-x-ray.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/026-tooth-13.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/027-dental-floss-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/028-certified.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/029-smiling.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/030-mobile-phone.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/031-call-center.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/032-tooth-14.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/033-placeholder.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/034-tooth-15.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/035-tooth-16.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/036-dentist-chair.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/037-search.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/038-mobile-phone-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/039-tooth-17.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/040-tooth-18.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/041-tooth-19.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/042-tooth-20.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/043-insurance.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/044-dental-care.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/045-tooth-21.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/046-placeholder-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/047-tooth-22.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/048-dentist-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/049-toothbrush-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="assets/svg/050-tooth-pliers-1.svg">
+      <publishTime>08/26/2018 01:15:33</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 07:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 07:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>08/26/2018 01:14:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/15/2017 13:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 10:08:46</publishTime>
+    </File>
+    <File Include="bin/muratmola.com.dll">
+      <publishTime>08/26/2018 03:12:53</publishTime>
+    </File>
+    <File Include="bin/muratmola.com.pdb">
+      <publishTime>08/26/2018 03:12:53</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 03:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 03:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/26/2018 01:14:05</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/26/2018 01:14:05</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/26/2018 01:35:02</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/26/2018 01:14:05</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/26/2018 01:17:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/26/2018 03:05:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

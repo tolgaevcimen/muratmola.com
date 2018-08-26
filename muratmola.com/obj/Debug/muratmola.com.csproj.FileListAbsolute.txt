@@ -40,3 +40,45 @@ c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola
 c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola.com\obj\Debug\muratmola.com.csproj.CoreCompileInputs.cache
 c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola.com\obj\Debug\muratmola.com.dll
 c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola.com\obj\Debug\muratmola.com.pdb
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\ApplicationInsights.config
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\muratmola.com.dll.config
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\muratmola.com.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\muratmola.com.pdb
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Antlr3.Runtime.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.Web.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.ApplicationInsights.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Newtonsoft.Json.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Helpers.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Mvc.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Optimization.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Razor.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.WebPages.Deployment.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.WebPages.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.WebPages.Razor.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\WebGrease.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Helpers.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Mvc.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Optimization.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.Razor.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.WebPages.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.WebPages.Deployment.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\System.Web.WebPages.Razor.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Antlr3.Runtime.pdb
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Newtonsoft.Json.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.ApplicationInsights.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.Web.xml
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Debug\muratmola.com.csprojResolveAssemblyReference.cache
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Debug\muratmola.com.csproj.CoreCompileInputs.cache
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Debug\muratmola.com.dll
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Debug\muratmola.com.pdb

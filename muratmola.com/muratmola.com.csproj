@@ -423,6 +423,7 @@
     <Content Include="assets\psd\049-toothbrush-1.psd" />
     <Content Include="assets\psd\050-tooth-pliers-1.psd" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

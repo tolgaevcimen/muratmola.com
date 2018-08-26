@@ -19,29 +19,29 @@ namespace muratmola.com.Controllers
         
         public void Contact(string name, string email, string msg)
         {
-            var mail = new MailMessage();
-
+            var mail = new MailMessage
+            {
+                From = new MailAddress(SenderMail),
+                Subject = $"{WebsiteName} - {name}'den bir soru var.",
+                Body = $"İsim:\t{name}\nEmail:\t{email}\n\n\"{msg}\""
+            };
+            mail.ReplyToList.Add(email);
             foreach (var receiver in Receivers.Split(','))
             {
                 mail.To.Add(new MailAddress(receiver));
             }
-            mail.From = new MailAddress(email);
-            mail.ReplyToList.Add(email);
-            mail.Subject = $"{WebsiteName} - {name}'den bir soru var.";
-            mail.Body = $"İsim:\t{name}\nEmail:\t{email}\n\n\"{msg}\"";
 
             SendMail(mail);
         }
 
         void SendMail(MailMessage Message)
         {
-            SmtpClient client = new SmtpClient();
-            client.Host = "smtp.googlemail.com";
-            client.Port = 587;
-            client.UseDefaultCredentials = false;
-            client.DeliveryMethod = SmtpDeliveryMethod.Network;
-            client.EnableSsl = true;
-            client.Credentials = new NetworkCredential(SenderMail, SenderPassword);
+            var client = new SmtpClient
+            {
+                Host = "smtp.muratmola.com",
+                Port = 587,
+                Credentials = new NetworkCredential(SenderMail, SenderPassword)
+            };
             client.Send(Message);
         }
     }
