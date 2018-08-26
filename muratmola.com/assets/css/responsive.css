@@ -225,3 +225,13 @@
 		display: none;
 	}
 }
+
+
+/* big mobile */
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .srvc-content h4.big-mobile-one-liner {
+        position: relative;
+        top: 10px;
+    }
+}

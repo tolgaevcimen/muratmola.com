@@ -501,8 +501,10 @@ ul.indent-30 {
     top: 10px;
 }
 
-.srvc-content h4.two-liner {
-    margin-bottom: 0px !important;
+@media (max-width: 403px), (min-width:430px) {
+    .srvc-content h4.two-liner {
+        margin-bottom: 0px !important;
+    }
 }
 
 .srvc-content p{

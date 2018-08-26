@@ -39,3 +39,4 @@ C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Microsoft.AI.Web.xml
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Release\muratmola.com.csproj.CoreCompileInputs.cache
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Release\muratmola.com.dll
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Release\muratmola.com.pdb
+C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\obj\Release\muratmola.com.csprojResolveAssemblyReference.cache
