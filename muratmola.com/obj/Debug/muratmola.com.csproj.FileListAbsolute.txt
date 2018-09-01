@@ -41,7 +41,6 @@ c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola
 c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola.com\obj\Debug\muratmola.com.dll
 c:\users\htolg\documents\visual studio 2017\Projects\muratmola.com_sln\muratmola.com\obj\Debug\muratmola.com.pdb
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\ApplicationInsights.config
-C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\muratmola.com.dll.config
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\muratmola.com.dll
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\muratmola.com.pdb
 C:\Users\htolg\Source\Repos\muratmola.com\muratmola.com\bin\Antlr3.Runtime.dll
