@@ -9,7 +9,7 @@ env:
 phases:
   build:
     commands:
-      - '& "C:\Program Files (x86)\MSBuild\14.0\Bin\nuget.exe" restore $env:SOLUTION -PackagesDirectory $env:PACKAGE_DIRECTORY'
+      - '& "C:\ProgramData\chocolatey\bin\NuGet.exe" restore $env:SOLUTION -PackagesDirectory $env:PACKAGE_DIRECTORY'
       - '& "C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe" -p:FrameworkPathOverride="C:\Windows\Microsoft.NET\Framework64\v4.0.30319"'
 artifacts:
   files:
